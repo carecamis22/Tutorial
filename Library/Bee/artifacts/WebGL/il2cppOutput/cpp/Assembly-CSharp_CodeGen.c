@@ -12,23 +12,23 @@
 
 
 
-// 0x00000001 System.Void NewBehaviourScript::Start()
-extern void NewBehaviourScript_Start_mDEAA416D3A6676A79851DDF6B62D676E53372A87 (void);
-// 0x00000002 System.Void NewBehaviourScript::Update()
-extern void NewBehaviourScript_Update_m68CAC9D7524B9FA1DFCA3F99BA694CD73147209B (void);
-// 0x00000003 System.Void NewBehaviourScript::.ctor()
-extern void NewBehaviourScript__ctor_mD2E080DE77BCDB61B6D2EC8AD996FAE611B97F3C (void);
+// 0x00000001 System.Void CatController::Start()
+extern void CatController_Start_mBF523F73390FFFB61685FB468206BD20B4D1BE9C (void);
+// 0x00000002 System.Void CatController::Update()
+extern void CatController_Update_m9248F92831AE755F602B2F60E4F270FB65700EA7 (void);
+// 0x00000003 System.Void CatController::.ctor()
+extern void CatController__ctor_mD49F5A0BD5275C1468411F55981509E8112862D2 (void);
 static Il2CppMethodPointer s_methodPointers[3] = 
 {
-	NewBehaviourScript_Start_mDEAA416D3A6676A79851DDF6B62D676E53372A87,
-	NewBehaviourScript_Update_m68CAC9D7524B9FA1DFCA3F99BA694CD73147209B,
-	NewBehaviourScript__ctor_mD2E080DE77BCDB61B6D2EC8AD996FAE611B97F3C,
+	CatController_Start_mBF523F73390FFFB61685FB468206BD20B4D1BE9C,
+	CatController_Update_m9248F92831AE755F602B2F60E4F270FB65700EA7,
+	CatController__ctor_mD49F5A0BD5275C1468411F55981509E8112862D2,
 };
 static const int32_t s_InvokerIndices[3] = 
 {
-	951,
-	951,
-	951,
+	964,
+	964,
+	964,
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
